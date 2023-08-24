@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panguien fashion with tailwind</title>
+    <!-- tailwind css  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script> -->
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        panguin: '#FFFBF0',
+                        jacketprice: '#FABE4C',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <header class="bg-panguin pb-32 pt-12 ">
+        <section class="container max-w-7xl  mx-auto flex items-center justify-around ">
+            <div class="space-y-4">
+                <h1 class=" text-2xl  sm:text-5xl uppercase font-bold">
+                    <span class="text-yellow-400">Be the Penguins</span>
+                    <br>
+                    <span>of Winter</span>
+                </h1>
+                <p>Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.</p>
+                <button class="uppercase rounded-xl bg-[#A4BC46] py-4 px-7 text-white font-semibold">
+                    <img class="inline" src="shopping-cart 1.png" alt="">
+                    BUY NOW </button>
+            </div>
+            <div class="pt-4 sm:pt-0">
+                <img class="w-1/2 sm:w-full" src="images/model.png" alt="">
+            </div>
+        </section>
+    </header>
+
+
+
+    <main class="container mx-auto  bg-[#E5E5E5]">
+        <!-- /boddy section  -->
+
+        <!-- women jacket  -->
+        <section class="container pb-24 max-w-7xl mx-auto">
+            <h2 class="text-5xl font-bold">WOMEN JACKET</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+                <!-- jacket 1 -->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-1.png" alt="">
+
+                    </div>
+                    <h3 class="text-3xl font-semibold">Yellow Coat Jacket </h3>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl text-jacketprice  font-bold">$234</h2>
+                        <button class="uppercase rounded-xl bg-[#A4BC46] py-4 px-7 text-white font-semibold">
+                            <img class="inline" src="shopping-cart 1.png" alt="">
+                            BUY NOW </button>
+                    </div>
+                </div>
+                <!-- jacket 2-->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-2.png" alt="">
+
+                    </div>
+                    <h3 class="text-3xl font-semibold">Ladies Jacket </h3>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl text-jacketprice  font-bold">$234</h2>
+                        <button class="uppercase rounded-xl bg-[#A4BC46] py-4 px-7 text-white font-semibold">
+                            <img class="inline" src="shopping-cart 1.png" alt="">
+                            BUY NOW </button>
+                    </div>
+                </div>
+                <!-- jacket 3 -->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-3.png" alt="">
+
+                    </div>
+                    <h3 class="text-3xl font-semibold">Woman Leather Jacket </h3>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl text-jacketprice  font-bold">$234</h2>
+                        <button class="uppercase rounded-xl bg-[#A4BC46] py-4 px-7 text-white font-semibold">
+                            <img class="inline" src="shopping-cart 1.png" alt="">
+                            BUY NOW </button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- dysi ui  -->
+            <!-- <div class="card w-96 bg-base-100 shadow-xl">
+                <figure><img src="./images/jacket-1.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">
+                        Shoes!
+                        <div class="badge badge-secondary">NEW</div>
+                    </h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div class="card-actions justify-end">
+                        <div class="badge badge-outline">Fashion</div>
+                        <div class="badge badge-outline">Products</div>
+                    </div>
+                </div>
+            </div> -->
+
+
+
+
+        </section>
+
+
+        <!-- men jacket  -->
+        <section class="container pb-24 max-w-7xl	mx-auto">
+            <h2 class="text-5xl font-bold">MEN JACKET</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+                <!-- jacket 1 -->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-4.png" alt="">
+
+                    </div>
+                    <h3 class="text-3xl font-semibold">Snowboard Jacket Mens </h3>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl text-jacketprice  font-bold">$234</h2>
+                        <button class="uppercase rounded-xl bg-[#A4BC46] py-4 px-7 text-white font-semibold">
+                            <img class="inline" src="shopping-cart 1.png" alt="">
+                            BUY NOW </button>
+                    </div>
+                </div>
+                <!-- jacket 2-->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-5.png" alt="">
+
+                    </div>
+                    <h3 class="text-3xl font-semibold">Man Leather Jackets </h3>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl text-jacketprice  font-bold">$234</h2>
+                        <button class="uppercase rounded-xl bg-[#A4BC46] py-4 px-7 text-white font-semibold">
+                            <img class="inline" src="shopping-cart 1.png" alt="">
+                            BUY NOW </button>
+                    </div>
+                </div>
+                <!-- jacket 3 -->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-6.png" alt="">
+
+                    </div>
+                    <h3 class="text-3xl font-semibold">Man Casual Jackets </h3>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl text-jacketprice  font-bold">$234</h2>
+                        <button class="uppercase rounded-xl bg-[#A4BC46] py-4 px-7 text-white font-semibold">
+                            <img class="inline" src="shopping-cart 1.png" alt="">
+                            BUY NOW </button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- dysi ui  -->
+            <!-- <div class="card w-96 bg-base-100 shadow-xl">
+                <figure><img src="./images/jacket-1.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">
+                        Shoes!
+                        <div class="badge badge-secondary">NEW</div>
+                    </h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div class="card-actions justify-end">
+                        <div class="badge badge-outline">Fashion</div>
+                        <div class="badge badge-outline">Products</div>
+                    </div>
+                </div>
+            </div> -->
+
+
+
+
+        </section>
+        <!-- our benifit  -->
+        <section class="container pb-24 max-w-7xl mx-auto">
+            <div class="grid grid-cols-2 gap-7">
+                <div class="rounded-lg flex bg-white p-6">
+                    <img class="w-20 h-20" src="icons/house.png" alt="">
+                    <div>
+                        <h4 class="text-2xl">Find the Perfect Fit</h4>
+                        <p>Everybody is different, which is why we
+                            offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class=" row-span-3">
+                    <img src="images/shopping.png" alt="">
+                </div>
+                <div class="rounded-lg flex bg-white p-6">
+                    <img class="w-20 h-20" src="icons/box.png" alt="">
+                    <div>
+                        <h4 class="text-2xl">Find the Perfect Fit</h4>
+                        <p>Everybody is different, which is why we
+                            offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class=" rounded-lg flex bg-white p-6">
+                    <img class="w-20 h-20" src="icons/question.png" alt="">
+                    <div>
+                        <h4 class="text-2xl">Find the Perfect Fit</h4>
+                        <p>Everybody is different, which is why we
+                            offer styles for every body.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+
+</html>
